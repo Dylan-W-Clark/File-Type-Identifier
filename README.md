@@ -56,6 +56,10 @@ Create the magic numbers dictionary  <br/>
 <img src="https://github.com/Dylan-W-Clark/File-Type-Identifier/blob/3cc80a07f70e664b868be2da914953b684a674b6/Screenshot%202026-01-31%20162752.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
+Write the file identification function <br/>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br/>
+<br/>
 Add the command-line interface  <br/>
 <img src="https://github.com/Dylan-W-Clark/File-Type-Identifier/blob/e38f6c5d069a81953db6331f9ab620236d0b4a29/Screenshot%202026-01-31%20164344.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
