@@ -22,11 +22,12 @@ A tool that reads file headers (magic numbers) to identify the actual file type,
 
 <p align="center">
 Create a project folder somewhere sensible: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/Dylan-W-Clark/File-Type-Identifier/blob/9bcc5f53fcd2c8c8124b87c8e86af3af9fb3ff76/Screenshot%202026-01-31%20150216.png" height="80%" width="80%" alt="File-Type-Identifier"/>
 <br />
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Optional but recommended: Set up a virtual environment (This keeps the project deployment separate):  <br/>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Enter the number of passes: <br/>
