@@ -13,39 +13,77 @@ A tool that reads file headers (magic numbers) to identify the actual file type,
 - <b>Python</b> 
 - <b>argparse</b>
 - <b>pathlib</b>
+- <b>Notpad++</b>
 
 <h2>Environment Used </h2>
 
 - <b>Windows</b>
 
-<h2>Walk-Through:</h2>
+<h2>Walk-Through</h2>
 
 <p align="center">
-Create a sroject solder somewhere sensible: <br/>
+Create a project folder somewhere sensible <br/>
 <img src="https://github.com/Dylan-W-Clark/File-Type-Identifier/blob/9bcc5f53fcd2c8c8124b87c8e86af3af9fb3ff76/Screenshot%202026-01-31%20150216.png" height="80%" width="80%" alt="File-Type-Identifier"/>
 <br />
 <br />
-Optional but recommended: Set up a virtual environment (This keeps the project deployment separate):  <br/>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Optional but recommended: Set up a virtual environment (This keeps the project deployment separate)  <br/>
+<img src="https://github.com/Dylan-W-Clark/File-Type-Identifier/blob/84ac215f390e6b839c58998fd1e43ac9a156fcda/Screenshot%202026-01-31%20152255.png" height="80%" width="80%" alt="File-Type-Identifier"/>
+ <br />
+<img src="https://github.com/Dylan-W-Clark/File-Type-Identifier/blob/84ac215f390e6b839c58998fd1e43ac9a156fcda/Screenshot%202026-01-31%20152337.png" height="80%" width="80%" alt="File-Type-Identifier"/>
 <br />
 <br />
-Create the main file: <hr>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<p align="left">
+<hr>
+<h2>Create the main .py file</h2>
+
+- Open your text editor (Notepad, VS Code, whatever you've got/prefer).
+- Create a new empty file.
+- Save it as magic_identifier.py in your magic-number-identifier folder.
+
+<hr>
 <br />
-<br />
-Confirm your selection:  <br/>
+<p align="center">
+Add the shebang and docstring <br/>
+
 <img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<p align="center">
+ 
+- This is called a "shebang". On Linux/Mac it tells the system to run this with Python. On Windows it doesn't do much, good practice and makes your code portable.
+<p align="center">
 <br />
 <br />
-Wait for process to complete (may take some time):  <br/>
+Create the magic numbers dictionary  <br/>
 <img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Add the command-line interface  <br/>
+<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Observe the wiped disk:  <br/>
+<p align="left">
+<hr>
+
+<h2>Testing the code</h2                 
+<h3>Option 1: Download some test files from the internet:</h3>
+
+- A PNG image (any image from Google Images, right-click > Save)
+- A PDF (any PDF)
+- A JPEG photo
+- Save them in your magic-number-identifier folder
+
+<h4>Option 2: Use files you already have</h4>
+
+- Copy some existing files (images, PDFs, etc.) into your project folder.
+
+<h5>Option 3: Rename a file with the wrong extension</h5>
+
+- Take a PNG file
+- Rename it to fake.txt or fake.jpg
+- Hopefully it will still identify it as PNG!
+<br />
+<hr>
+<br />
+<p align="center">
+Running the tool - (make sure you're in the magic-number-identifier folder with venv activated) <br/>
 <img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
