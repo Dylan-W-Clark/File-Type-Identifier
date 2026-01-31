@@ -53,7 +53,7 @@ Add the shebang and docstring <br/>
 <br />
 <br />
 Create the magic numbers dictionary  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/Dylan-W-Clark/File-Type-Identifier/blob/3cc80a07f70e664b868be2da914953b684a674b6/Screenshot%202026-01-31%20162752.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Add the command-line interface  <br/>
